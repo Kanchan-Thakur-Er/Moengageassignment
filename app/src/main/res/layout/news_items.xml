@@ -1,0 +1,75 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_180"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_5"
+            android:background="@drawable/border"
+            card_view:cardCornerRadius="@dimen/dimen_10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgNews"
+                    android:layout_width="@dimen/dimen_100"
+                    android:layout_height="@dimen/dimen_100"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/dimen_5"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:src="@drawable/ic_home_24dp" />
+
+                <TextView
+                    android:id="@+id/tvnewsTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/imgNews"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:paddingLeft="@dimen/dimen_5"
+                    android:paddingTop="@dimen/dimen_5"
+                    android:paddingRight="@dimen/dimen_5"
+                    android:text="News title"
+                    android:textColor="@color/color_primary"
+                    android:textSize="@dimen/dimen_18"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvNewsURL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvnewsTitle"
+                    android:layout_toRightOf="@+id/imgNews"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:paddingLeft="@dimen/dimen_5"
+                    android:paddingTop="@dimen/dimen_5"
+                    android:paddingRight="@dimen/dimen_5"
+                    android:text="@string/click_here"
+                    android:textColor="@color/color_primary"
+                    android:textSize="@dimen/dimen_18" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color_primary" />
+
+    </LinearLayout>
+</layout>

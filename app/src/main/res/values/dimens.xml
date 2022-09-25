@@ -1,0 +1,11 @@
+<resources>
+        <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_160">160dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_18">18dp</dimen>
+    <dimen name="dimen_180">180dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+
+</resources>
