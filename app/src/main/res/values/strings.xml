@@ -13,6 +13,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="app_nametext">NewsMania</string>
+    <string name="app_nametext">MoEngageAssignment</string>
     <string name="click_here">   <u>Click here</u></string>
 </resources>
